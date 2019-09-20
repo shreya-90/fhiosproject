@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>512823094306-ll6j4r74n5k5ffgum1bmb5gch7ro4jcp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.512823094306-ll6j4r74n5k5ffgum1bmb5gch7ro4jcp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAj7iSGp8OdZByYiAmZDsiaxpMivfCsRUQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>512823094306</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.root.fintoo</string>
+	<key>PROJECT_ID</key>
+	<string>newp-1232</string>
+	<key>STORAGE_BUCKET</key>
+	<string>newp-1232.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:512823094306:ios:20d225651448f3a8</string>
+	<key>DATABASE_URL</key>
+	<string>https://newp-1232.firebaseio.com</string>
+</dict>
+</plist>

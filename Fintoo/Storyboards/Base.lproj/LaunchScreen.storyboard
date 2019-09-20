@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="FOU-d2-ajz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="mF5-UO-GSR">
+                                <rect key="frame" x="40" y="192.5" width="240" height="82"/>
+                            </imageView>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qnq-1y-Sci">
+                                <rect key="frame" x="40" y="283.5" width="240" height="1"/>
+                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="gbT-DQ-TnI"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hassle Free Online Investing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rm-la-jyN">
+                                <rect key="frame" x="86" y="293" width="148.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="lVb-3J-v9i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FOU-d2-ajz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2s9-fx-o1T"/>
+                            <constraint firstItem="Qnq-1y-Sci" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Ni-Z8-IYp"/>
+                            <constraint firstItem="Qnq-1y-Sci" firstAttribute="top" secondItem="mF5-UO-GSR" secondAttribute="bottom" constant="9" id="EKc-M1-GCP"/>
+                            <constraint firstItem="Qnq-1y-Sci" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Kdz-dT-KmL"/>
+                            <constraint firstItem="6rm-la-jyN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="W2v-Kz-W0R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mF5-UO-GSR" secondAttribute="trailing" constant="40" id="WGm-Dd-2qk"/>
+                            <constraint firstItem="Qnq-1y-Sci" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="24" id="Y1x-jM-gZJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qnq-1y-Sci" secondAttribute="trailing" constant="24" id="aRD-B8-HOz"/>
+                            <constraint firstItem="FOU-d2-ajz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="bps-fF-UyR"/>
+                            <constraint firstItem="6rm-la-jyN" firstAttribute="top" secondItem="Qnq-1y-Sci" secondAttribute="bottom" constant="9" id="fjb-dt-oQh"/>
+                            <constraint firstItem="mF5-UO-GSR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="i32-JW-8wr"/>
+                            <constraint firstItem="FOU-d2-ajz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pFW-zu-qMF"/>
+                            <constraint firstItem="FOU-d2-ajz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ugN-E4-xJL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="340" height="82"/>
+        <image name="splash" width="720" height="1440"/>
+    </resources>
+</document>

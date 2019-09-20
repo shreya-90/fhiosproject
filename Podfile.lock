@@ -1,0 +1,193 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CarbonKit (2.2.2)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Cosmos (15.0.0)
+  - Crashlytics (3.11.1):
+    - Fabric (~> 1.8.1)
+  - CryptoSwift (0.13.0)
+  - DropDown (2.3.2)
+  - Fabric (1.8.2)
+  - FileBrowser (1.0.0)
+  - Firebase (6.3.0):
+    - Firebase/Core (= 6.3.0)
+  - Firebase/Core (6.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.0.2)
+  - Firebase/CoreOnly (6.3.0):
+    - FirebaseCore (= 6.0.3)
+  - Firebase/Messaging (6.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.0)
+  - FirebaseAnalytics (6.0.2):
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.0.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.2.0)
+  - FirebaseCore (6.0.3):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseInstanceID (4.2.0):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (~> 3.1)
+  - FlexibleSteppedProgressBar (0.5.0)
+  - FSCalendar (2.7.9)
+  - GoogleAppMeasurement (6.0.2):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (6.2.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.1)
+  - GoogleUtilities/Logger (6.2.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.2.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.2.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.1)"
+  - GoogleUtilities/Reachability (6.2.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.2.1):
+    - GoogleUtilities/Logger
+  - HanekeSwift (0.10.1)
+  - IQKeyboardManagerSwift (6.1.1)
+  - MIBadgeButton-Swift (0.4)
+  - Mixpanel-swift (2.4.3):
+    - Mixpanel-swift/Complete (= 2.4.3)
+  - Mixpanel-swift/Complete (2.4.3)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - Protobuf (3.8.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - CarbonKit
+  - Charts
+  - Cosmos (~> 15.0)
+  - Crashlytics
+  - CryptoSwift
+  - DropDown
+  - Fabric
+  - FileBrowser (~> 1.0)
+  - Firebase
+  - Firebase/Core
+  - Firebase/Messaging
+  - FlexibleSteppedProgressBar
+  - FSCalendar
+  - GoogleMaps
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, branch `feature/swift-3`)
+  - IQKeyboardManagerSwift
+  - MIBadgeButton-Swift
+  - Mixpanel-swift (= 2.4.3)
+  - NVActivityIndicatorView
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CarbonKit
+    - Charts
+    - Cosmos
+    - Crashlytics
+    - CryptoSwift
+    - DropDown
+    - Fabric
+    - FileBrowser
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FlexibleSteppedProgressBar
+    - FSCalendar
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
+    - MIBadgeButton-Swift
+    - Mixpanel-swift
+    - nanopb
+    - NVActivityIndicatorView
+    - Protobuf
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: feature/swift-3
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 2f6d87f1f725d204d85cb34492e8c399cd5a200f
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
+  Crashlytics: ca7ab4bc304aa216bdc2e4c1a96389ee77252203
+  CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  Fabric: d2b22f443ba195d8a7cc204da230977c72733b40
+  FileBrowser: 2ca91ff61c9ea09665eb3b8f9e64a7a77e66a0bf
+  Firebase: 8432d732974498afd5987e9001a05f90f1a3d625
+  FirebaseAnalytics: 470ddab7253b21ad5a40bebd4a9903d7ae19386a
+  FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
+  FirebaseCore: 68f8a7f50cdae542715d4e86afa37c4067217dcb
+  FirebaseInstanceID: f20243a1d828e0e9a3798b995174dedc16f1b32a
+  FirebaseMessaging: 0ac5310133e6ada4cdd44d42e92038855214a5e9
+  FlexibleSteppedProgressBar: a8894ca4913e34ea2c694be09a7d4d6b1f1bdc74
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GoogleAppMeasurement: a35a645835bae31b6bdc0576396bc23908f12a22
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GoogleUtilities: c7a0b08bda3bf808be823ed151f0e28ac6866e71
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  MIBadgeButton-Swift: b5d07924904c84bcb8e8fe3c3131b8499f28930c
+  Mixpanel-swift: 58544ba12f05cbb4da9797a9bccc41e778bc1582
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 2f2988fc2b355dc8742cdf745d76f0b0f4e7719d
+
+COCOAPODS: 1.7.5
